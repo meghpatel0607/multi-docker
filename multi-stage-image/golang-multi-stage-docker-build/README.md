@@ -1,5 +1,5 @@
 # Multi Stage Docker Build
 
-The main purpose of choosing a golang based applciation to demostrate this example is golang is a statically-typed programming language that does not require a runtime in the traditional sense. Unlike dynamically-typed languages like Python, Ruby, and JavaScript, which rely on a runtime environment to execute their code, Go compiles directly to machine code, which can then be executed directly by the operating system.
+Choosing a Golang-based application for this example is because Golang is a programming language that compiles directly to machine code, skipping the need for a runtime environment like some other languages. This makes Golang applications more straightforward and faster.
 
-So the real advantage of multi stage docker build and distro less images can be understand with a drastic decrease in the Image size.
+The cool part is using a multi-stage Docker build and distro-less images. This makes the final container much smaller. In simple terms, it's like packing only what's needed for your app to run, and nothing extra. This smaller size is great because it makes your app faster to deploy and takes up less space on servers. So, Golang and distro-less images together make things efficient and speedy!
